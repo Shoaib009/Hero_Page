@@ -1,0 +1,78 @@
+body {
+  background: url(/images/hubble.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+@media screen and (min-width: 320px) {
+  body {
+    background: url(/images/hubble_320.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  h1 {
+    color: white;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 853px) {
+  body {
+    background: url(/images/hubble_924.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1228px) {
+  body {
+    background: url(/images/hubble_1388.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body {
+    background: url(/images/hubble_1440.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  color: white;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  word-spacing: 1rem;
+  font-weight: 900;
+}
+p {
+  color: white;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
